@@ -36,7 +36,7 @@ def main():
                   else 6)
     weekd= st.selectbox('What is the week day of arrival', ['Mon', 'Tue', 'Wed', 'Thu','Fri', 'Sat', 'Sun'])
 
-    tran_data= pt.tranform([[lt, price]])
+    tran_data = pt.transform([[lt, price]])
     lt_t= tran_data[0][0]
     price_t=  tran_data[0][1]
 
